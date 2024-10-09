@@ -51,6 +51,7 @@ class CalculatorButton extends StatelessWidget {
         icon!,
         width: 32,
         height: 32,
+        colorFilter: ColorFilter.mode(textColor, BlendMode.srcIn),
       );
     }
 
